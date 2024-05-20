@@ -1,0 +1,38 @@
+input/output in java
+
+
+import java.util.Scanner;
+
+public class Main {
+static String name;
+static int age;
+
+    public static void main(String[] args) {
+
+        // using Scanner for input data.
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("please enter your name here: ");
+
+        //giving input name by using scanner "sc"
+        name = sc.next();
+
+        System.out.println("please enter your age here:");
+
+        // giving input age by using scanner "sc" as same as in line 16.
+        // "nextInt" for taking input in "numeric form or integers".
+        age = sc.nextInt();
+
+        //now here are few types of output
+        System.out.println("Hello world!");
+
+        // this out put comes from input name.
+        System.out.println("your name :" + name);
+
+        // this output comes from input age.
+        System.out.println("your age is :" + age);
+
+    }
+
+
+}
