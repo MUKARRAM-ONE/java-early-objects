@@ -1,0 +1,39 @@
+// Adiition of two integers in java
+
+
+// importing java class Scanner from library
+import java.util.Scanner;
+
+//addition program that input two numbers and then display their sum.
+public class Addition {
+    
+    // main method in class Addition
+    public static void main (String[] args1){
+
+        //crete a new object of scanner name "input"
+        Scanner input = new Scanner(System.in);
+
+        //declare two variables e.g "a" & "b"
+        int a;
+        int b;
+
+        //for the input of "a" integer
+        System.out.println("Enter the value of a:");
+        a = input.nextInt();
+
+        //for the input of "b" integer
+        System.out.println("Enter the value of b:");
+        b = input.nextInt();
+
+        //declare ew variable name sum for adding both integers "a" & "b"
+        int sum = a + b;
+
+
+        // for output
+        System.out.println("the sum of two integers a & b is: " + sum);
+
+
+    }// end main method
+
+}//end class Addition
+
